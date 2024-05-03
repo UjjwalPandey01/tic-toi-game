@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #8d99ae;
+    text-align: center;
+}
+
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #2b2d42;
+    background-color: #edf2f4;
+
+}
+
+.box:hover{
+    box-shadow: 8px 8px 19px #ef233c ;
+}
+.reset-btn{
+    font-size: 1.25rem;
+    border: none;
+    padding: 0.5rem 1rem ;
+    color: #2b2d42;
+    font-size: 2.5vmin;
+    border-radius: 0.7rem;
+    background-color: #edf2f4;
+}
+
+.reset-btn:hover{
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+.new-game{
+    font-size: 1.25rem;
+    border: none;
+    padding: 0.5rem 1rem ;
+    color: #2b2d42;
+    font-size: 2.5vmin;
+    border-radius: 0.7rem;
+    background-color: #edf2f4;
+}
+.new-game:hover{
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+#msg{
+    color: #edf2f4;
+    font-size: 4vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display: none;
+}
+
+
+
